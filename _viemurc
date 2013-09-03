@@ -14,8 +14,8 @@ noremap <C-f> :vsc Edit.Find <return>
 
 " Comments
 " Does not WORK:
-noremap <C-/> ReSharper.ReSharper_LineComment<CR>
-noremap <A-/> ReSharper.ReSharper_BlockComment<CR>
+" noremap <C-/> :vsc ReSharper.ReSharper_LineComment<CR>
+" noremap <A-/> :vsc ReSharper.ReSharper_BlockComment<CR>
 
 " Formatting
 " By default ViEmu supports formatting selection with '='
@@ -46,7 +46,7 @@ noremap ,rf :vsc ReSharper.ReSharper_IntroduceField <return>
 noremap ,re :vsc ReSharper.ReSharper_EncapsulateField <return>
 noremap ,ri :vsc ReSharper_VSRefactor_ExtractInterface <return>
 noremap ,rm :vsc ReSharper.ReSharper_ExtractMethod <return>
-
+noremap ,rv :vsc ReSharper.ReSharper_IntroduceVariable <CR>
 
 noremap `0 :vsc ReSharper_Bookmarks_GoToBookmark0 <return>
 noremap `1 :vsc ReSharper_Bookmarks_GoToBookmark1 <return>
@@ -68,6 +68,10 @@ noremap <C-m><C-d> :vsc ReSharper.ReSharper_Bookmarks_ClearInDocument <return>
 noremap gj :vsc ReSharper.ReSharper_GotoNextMethod <return>
 noremap gk :vsc ReSharper.ReSharper_GotoPrevMethod <return>
 
+" Does not work:
+" noremap <C-J> :vsc ReSharper.ReSharper_GotoNextMethod <return>
+" noremap <C-K> :vsc ReSharper.ReSharper_GotoPrevMethod <return>
+
 noremap gb :vsc ReSharper.ReSharper_GotoBase <return>
 noremap gD :vsc ReSharper.ReSharper_GotoContainingDeclaration <return>
 noremap gd :vsc ReSharper.ReSharper_GotoDeclaration <return>
@@ -85,8 +89,3 @@ noremap gR :vsc ReSharper.ReSharper_GotoRelatedFiles <return>
 noremap gs :vsc ReSharper.ReSharper_GotoSymbol <return>
 noremap gn :vsc ReSharper.ReSharper_GotoNextOccurence <return>
 noremap gN :vsc ReSharper.ReSharper_GotoPreviousOccurence <return>
-
-
-" <C-n> is used to swith to a new tab. I need to find a new shorcut
-"noremap <C-n> :vsc ReSharper.ReSharper_GotoNextOccurence <return>
-"noremap <C-N> :vsc ReSharper.ReSharper_GotoPreviousOccurence <return>

@@ -648,6 +648,14 @@
 					<Shortcut Command="ViEmu.KeypressCtrlY" Scope="Text Editor">Ctrl+Y</Shortcut>
 					<Shortcut Command="ViEmu.KeypressCtrlLeftSquareBracket" Scope="Text Editor">Ctrl+[</Shortcut>
 					<Shortcut Command="ViEmu.KeypressCtrlRightSquareBracket" Scope="Text Editor">Ctrl+]</Shortcut>
+					<RemoveShortcut Command="Edit.ListMembers" Scope="Text Editor">Ctrl+J</RemoveShortcut>
+					<RemoveShortcut Command="Edit.ListMembers" Scope="Workflow Designer">Ctrl+J</RemoveShortcut>
+					<RemoveShortcut Command="Edit.ViewTop" Scope="Text Editor">Ctrl+PgUp</RemoveShortcut>
+					<RemoveShortcut Command="Edit.ViewBottom" Scope="Text Editor">Ctrl+PgDn</RemoveShortcut>
+					<RemoveShortcut Command="Edit.Replace" Scope="Global">Ctrl+H</RemoveShortcut>
+					<RemoveShortcut Command="Edit.LineCut" Scope="Text Editor">Ctrl+L</RemoveShortcut>
+					<Shortcut Command="Window.PreviousTab" Scope="Global">Ctrl+H</Shortcut>
+					<Shortcut Command="Window.NextTab" Scope="Global">Ctrl+L</Shortcut>
 				</UserShortcuts>
 			</KeyboardShortcuts>
 		</Category>
