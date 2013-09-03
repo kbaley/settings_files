@@ -1,18 +1,3 @@
-"
-"Originally taken from
-"https://github.com/StanislawSwierc/Profile/blob/master/_viemurc
-"
-" ViEmu has access to all keys except the following:
-" <C-c>
-" <C-v>
-"
-
-
-" Restore some keyboard shortcuts from scheme "C# 2005" 
-
-noremap <C-f> :vsc Edit.Find <return> 
-
-" Comments
 " Does not WORK:
 " noremap <C-/> :vsc ReSharper.ReSharper_LineComment<CR>
 " noremap <A-/> :vsc ReSharper.ReSharper_BlockComment<CR>
