@@ -1,4 +1,5 @@
-
+" References : 
+" $home\Documents\Visual Studio 2012\Settings\CurrentSettings.vssettings
 
 " Does not WORK:
 " noremap <C-/> :vsc ReSharper.ReSharper_LineComment<CR>
@@ -11,6 +12,7 @@ noremap == :vsc ReSharper_SilentCleanupCode<CR>
 
 " Vim style navigation to the man page 
 noremap K :vsc ReSharper.ReSharper_QuickDoc<return>  
+
 
 "-------------------------------------------------------------------------------
 " Resharper test explorer
@@ -31,9 +33,11 @@ noremap ,rt :vsc ReSharper.ReSharper_RefactorThis <return>
 noremap ,rr :vsc ReSharper.ReSharper_Rename <return>
 noremap ,rf :vsc ReSharper.ReSharper_IntroduceField <return>
 noremap ,re :vsc ReSharper.ReSharper_EncapsulateField <return>
-noremap ,ri :vsc ReSharper_VSRefactor_ExtractInterface <return>
+noremap ,rx :vsc ReSharper_VSRefactor_ExtractInterface <return>
 noremap ,rm :vsc ReSharper.ReSharper_ExtractMethod <return>
 noremap ,rv :vsc ReSharper.ReSharper_IntroduceVariable <CR>
+noremap ,ri :vsc ReSharper.ReSharper_InlineVariable <CR>
+noremap ,rp :vsc ReSharper.ReSharper_IntroParameter <CR>
 
 map <F2> gS:vsc ReSharper.ReSharper_Rename<CR>
 
@@ -57,6 +61,8 @@ noremap ,gi :vsc ReSharper.ReSharper_GotoImplementation <return>
 noremap ,gI :vsc ReSharper.ReSharper_GotoInheritors <return>
 noremap ,ge :vsc ReSharper.ReSharper_GotoNextErrorInSolution <return>
 noremap ,gE :vsc ReSharper.ReSharper_GotoPrevErrorInSolution <return>
+noremap ,gh :vsc ReSharper.ReSharper_GotoNextHighlight<CR>
+noremap ,gH :vsc ReSharper.ReSharper_GotoPrevHighlight<CR>
 noremap ,gt :vsc ReSharper.ReSharper_GotoType <return>
 noremap ,gT :vsc ReSharper.ReSharper_GotoTypeDeclaration <return>
 noremap ,gu :vsc ReSharper.ReSharper_GotoUsage <return>
@@ -84,4 +90,12 @@ noremap <C-m><C-m> :vsc ReSharper.ReSharper_Bookmarks_BookmarksMenu <return>
 noremap <C-m><C-a> :vsc ReSharper.ReSharper_Bookmarks_ClearAll <return>
 noremap <C-m><C-d> :vsc ReSharper.ReSharper_Bookmarks_ClearInDocument <return>
 
+set smartindent
 
+cnoremap <C-p> <Up>
+cnoremap <C-n> <Down>
+
+
+" These hooks don't work:
+" noremap gt :svc Window.NextTab <CR>
+" noremap gT :svc Window.PreviousTab <CR>

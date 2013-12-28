@@ -60,171 +60,54 @@
 				<ShortcutsScheme>Visual C# 2005</ShortcutsScheme>
 				<UserShortcuts>
 					<RemoveShortcut Command="Window.PreviousTab" Scope="Global">Ctrl+Alt+PgUp</RemoveShortcut>
-					<Shortcut Command="Window.PreviousTab" Scope="Global">Ctrl+PgUp</Shortcut>
-					<Shortcut Command="Window.PreviousTab" Scope="HTML Editor Source View">Ctrl+PgUp</Shortcut>
-					<Shortcut Command="Window.PreviousTab" Scope="HTML Editor Design View">Ctrl+PgUp</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoPreviousOccurence" Scope="Global">Ctrl+Alt+PgUp</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoPreviousOccurence" Scope="Text Editor">Ctrl+Alt+PgUp</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoPreviousOccurence" Scope="XAML UI Designer">Ctrl+Alt+PgUp</Shortcut>
 					<RemoveShortcut Command="Window.NextTab" Scope="Global">Ctrl+Alt+PgDn</RemoveShortcut>
-					<Shortcut Command="Window.NextTab" Scope="Global">Ctrl+PgDn</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoNextOccurence" Scope="Global">Ctrl+Alt+PgDn</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoNextOccurence" Scope="Text Editor">Ctrl+Alt+PgDn</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoNextOccurence" Scope="XAML UI Designer">Ctrl+Alt+PgDn</Shortcut>
 					<RemoveShortcut Command="Edit.NavigateToLollipop" Scope="Class Diagram">Shift+Alt+L</RemoveShortcut>
 					<RemoveShortcut Command="TeamFoundationContextMenus.MyWorkPageInProgress.TfsContextMyWorkPageNewLinkedWI" Scope="Team Explorer">Shift+Alt+L</RemoveShortcut>
 					<RemoveShortcut Command="Team.NewLinkedWorkItem" Scope="Work Item Query View">Shift+Alt+L</RemoveShortcut>
 					<RemoveShortcut Command="Team.NewLinkedWorkItem" Scope="Work Item Results View">Shift+Alt+L</RemoveShortcut>
 					<RemoveShortcut Command="Team.NewLinkedWorkItem" Scope="Work Item Editor">Shift+Alt+L</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_LocateInSolutionExplorer" Scope="Global">Shift+Alt+L</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_LocateInSolutionExplorer" Scope="Text Editor">Shift+Alt+L</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_LocateInSolutionExplorer" Scope="XAML UI Designer">Shift+Alt+L</Shortcut>
 					<RemoveShortcut Command="Edit.LineOpenAbove" Scope="Text Editor">Ctrl+Enter</RemoveShortcut>
-					<Shortcut Command="ReSharper_ForceCompleteItem" Scope="Text Editor">Ctrl+Enter</Shortcut>
-					<Shortcut Command="ReSharper_ForceCompleteItem" Scope="XAML UI Designer">Ctrl+Enter</Shortcut>
 					<RemoveShortcut Command="Format.SpaceDown" Scope="VC Dialog Editor">Alt+Down Arrow</RemoveShortcut>
 					<RemoveShortcut Command="ProjectandSolutionContextMenus.Item.MoveDown" Scope="Global">Alt+Down Arrow</RemoveShortcut>
 					<RemoveShortcut Command="OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.Down" Scope="ADO.NET Entity Data Model Designer">Alt+Down Arrow</RemoveShortcut>
 					<RemoveShortcut Command="TeamFoundationContextMenus.Commands.GoToTeamExplorerNextSectionContent" Scope="Team Explorer">Alt+Down Arrow</RemoveShortcut>
 					<RemoveShortcut Command="GraphView.ToptoBottom" Scope="XML Schema Designer">Alt+Down Arrow</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoNextMethod" Scope="Global">Alt+Down Arrow</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoNextMethod" Scope="Text Editor">Alt+Down Arrow</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoNextMethod" Scope="XAML UI Designer">Alt+Down Arrow</Shortcut>
 					<RemoveShortcut Command="Format.SpaceDown" Scope="VC Dialog Editor">Alt+Up Arrow</RemoveShortcut>
 					<RemoveShortcut Command="ProjectandSolutionContextMenus.Item.MoveUp" Scope="Global">Alt+Up Arrow</RemoveShortcut>
 					<RemoveShortcut Command="OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.Up" Scope="ADO.NET Entity Data Model Designer">Alt+Up Arrow</RemoveShortcut>
 					<RemoveShortcut Command="TeamFoundationContextMenus.Commands.GoToTeamExplorerPreviousSectionContent" Scope="Team Explorer">Alt+Up Arrow</RemoveShortcut>
 					<RemoveShortcut Command="GraphView.BottomtoTop" Scope="XML Schema Designer">Alt+Up Arrow</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoPrevMethod" Scope="Global">Alt+Up Arrow</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoPrevMethod" Scope="Text Editor">Alt+Up Arrow</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoPrevMethod" Scope="XAML UI Designer">Alt+Up Arrow</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_ExtendSelection" Scope="Text Editor">Ctrl+Alt+Right Arrow</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_ExtendSelection" Scope="XAML UI Designer">Ctrl+Alt+Right Arrow</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_ShrinkSelection" Scope="Text Editor">Ctrl+Alt+Left Arrow</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_ShrinkSelection" Scope="XAML UI Designer">Ctrl+Alt+Left Arrow</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_DuplicateText" Scope="XAML UI Designer">Ctrl+D</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_LineComment" Scope="Text Editor">Ctrl+Alt+/</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_LineComment" Scope="XAML UI Designer">Ctrl+Alt+/</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_BlockComment" Scope="Text Editor">Ctrl+Shift+/</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_BlockComment" Scope="XAML UI Designer">Ctrl+Shift+/</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_CompleteCodeTypeName" Scope="Text Editor">Shift+Alt+Space</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_CompleteCodeTypeName" Scope="XAML UI Designer">Shift+Alt+Space</Shortcut>
 					<RemoveShortcut Command="Edit.ToggleCompletionMode" Scope="Text Editor">Ctrl+Alt+Space</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_CompleteCodeSmart" Scope="Text Editor">Ctrl+Alt+Space</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_CompleteCodeSmart" Scope="XAML UI Designer">Ctrl+Alt+Space</Shortcut>
 					<RemoveShortcut Command="Window.AddTabtoSelection" Scope="Global">Ctrl+Shift+Alt+Space</RemoveShortcut>
-					<Shortcut Command="ReSharper_ParameterInfo_GoToPreviousSignature" Scope="Global">Ctrl+Shift+Alt+Space</Shortcut>
-					<Shortcut Command="ReSharper_ParameterInfo_GoToPreviousSignature" Scope="Text Editor">Ctrl+Shift+Alt+Space</Shortcut>
-					<Shortcut Command="ReSharper_ParameterInfo_GoToPreviousSignature" Scope="XAML UI Designer">Ctrl+Shift+Alt+Space</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_QuickDoc" Scope="Global">Ctrl+Shift+F1</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_QuickDoc" Scope="Text Editor">Ctrl+Shift+F1</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_QuickDoc" Scope="XAML UI Designer">Ctrl+Shift+F1</Shortcut>
 					<RemoveShortcut Command="Edit.CharTranspose" Scope="Text Editor">Ctrl+T</RemoveShortcut>
 					<RemoveShortcut Command="Format.TestDialog" Scope="VC Dialog Editor">Ctrl+T</RemoveShortcut>
 					<RemoveShortcut Command="Image.TextTool" Scope="VC Image Editor">Ctrl+T</RemoveShortcut>
 					<RemoveShortcut Command="QueryDesigner.CancelRetrievingData" Scope="Query Designer">Ctrl+T</RemoveShortcut>
 					<RemoveShortcut Command="QueryDesigner.CancelRetrievingData" Scope="View Designer">Ctrl+T</RemoveShortcut>
 					<RemoveShortcut Command="Edit.WordTranspose" Scope="Text Editor">Ctrl+Shift+T</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoFile" Scope="Global">Ctrl+Shift+T</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoFile" Scope="Text Editor">Ctrl+Shift+T</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoFile" Scope="XAML UI Designer">Ctrl+Shift+T</Shortcut>
 					<RemoveShortcut Command="Edit.LineTranspose" Scope="Text Editor">Shift+Alt+T</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoSymbol" Scope="Global">Shift+Alt+T</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoSymbol" Scope="Text Editor">Shift+Alt+T</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoSymbol" Scope="XAML UI Designer">Shift+Alt+T</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoFileMember" Scope="Global">Alt+\</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoFileMember" Scope="Text Editor">Alt+\</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoFileMember" Scope="XAML UI Designer">Alt+\</Shortcut>
 					<RemoveShortcut Command="Edit.QuickFindSymbol" Scope="Global">Shift+Alt+F12</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoUsage" Scope="Global">Shift+Alt+F12</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoUsage" Scope="Text Editor">Shift+Alt+F12</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoUsage" Scope="XAML UI Designer">Shift+Alt+F12</Shortcut>
 					<RemoveShortcut Command="OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.ToTop" Scope="ADO.NET Entity Data Model Designer">Alt+Home</RemoveShortcut>
 					<RemoveShortcut Command="TeamFoundationContextMenus.Commands.GoToTeamExplorerNavigation" Scope="Team Explorer">Alt+Home</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoBase" Scope="Global">Alt+Home</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoBase" Scope="Text Editor">Alt+Home</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoBase" Scope="XAML UI Designer">Alt+Home</Shortcut>
 					<RemoveShortcut Command="SQL.QueryResultsNewRow" Scope="Query Results">Alt+End</RemoveShortcut>
 					<RemoveShortcut Command="OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.ToBottom" Scope="ADO.NET Entity Data Model Designer">Alt+End</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoInheritors" Scope="Global">Alt+End</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoInheritors" Scope="Text Editor">Alt+End</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoInheritors" Scope="XAML UI Designer">Alt+End</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoTypeDeclaration" Scope="Global">Ctrl+Shift+F11</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoTypeDeclaration" Scope="Text Editor">Ctrl+Shift+F11</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoTypeDeclaration" Scope="XAML UI Designer">Ctrl+Shift+F11</Shortcut>
 					<RemoveShortcut Command="Image.PreviousColor" Scope="VC Image Editor">Ctrl+[</RemoveShortcut>
-					<Shortcut Command="Image.PreviousColor" Scope="VC Image Editor">Ctrl+Left Arrow</Shortcut>
 					<RemoveShortcut Command="SolutionExplorer.PendingChangesFilter" Scope="Global">Ctrl+[, P</RemoveShortcut>
 					<RemoveShortcut Command="SolutionExplorer.PendingChangesFilter" Scope="Global">Ctrl+[, Ctrl+P</RemoveShortcut>
 					<RemoveShortcut Command="SolutionExplorer.OpenFilesFilter" Scope="Global">Ctrl+[, O</RemoveShortcut>
 					<RemoveShortcut Command="SolutionExplorer.OpenFilesFilter" Scope="Global">Ctrl+[, Ctrl+O</RemoveShortcut>
 					<RemoveShortcut Command="SolutionExplorer.SyncWithActiveDocument" Scope="Global">Ctrl+[, S</RemoveShortcut>
 					<RemoveShortcut Command="SolutionExplorer.SyncWithActiveDocument" Scope="Global">Ctrl+[, Ctrl+S</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoContainingDeclaration" Scope="XAML UI Designer">Ctrl+[</Shortcut>
 					<RemoveShortcut Command="Window.ActivateWindowSearch" Scope="Global">Alt+`</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_NavigateTo" Scope="Global">Alt+`</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_NavigateTo" Scope="Text Editor">Alt+`</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_NavigateTo" Scope="XAML UI Designer">Alt+`</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoRelatedFiles" Scope="Global">Ctrl+Alt+F7</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoRelatedFiles" Scope="Text Editor">Ctrl+Alt+F7</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoRelatedFiles" Scope="XAML UI Designer">Ctrl+Alt+F7</Shortcut>
 					<RemoveShortcut Command="Tools.ForceGC" Scope="Global">Ctrl+Shift+Alt+F12, Ctrl+Shift+Alt+F12</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_FindUsagesAdvanced" Scope="Global">Ctrl+Shift+Alt+F12</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_FindUsagesAdvanced" Scope="Text Editor">Ctrl+Shift+Alt+F12</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_FindUsagesAdvanced" Scope="XAML UI Designer">Ctrl+Shift+Alt+F12</Shortcut>
 					<RemoveShortcut Command="Debug.StepIntoSpecific" Scope="Global">Shift+Alt+F11</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_HighlightUsages" Scope="Global">Shift+Alt+F11</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_HighlightUsages" Scope="Text Editor">Shift+Alt+F11</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_HighlightUsages" Scope="XAML UI Designer">Shift+Alt+F11</Shortcut>
 					<RemoveShortcut Command="Image.PreviousRightColor" Scope="VC Image Editor">Ctrl+Shift+[</RemoveShortcut>
-					<Shortcut Command="Image.PreviousRightColor" Scope="VC Image Editor">Ctrl+Shift+Left Arrow</Shortcut>
-					<Shortcut Command="ReSharper_SelectContainingDeclaration" Scope="Global">Ctrl+Shift+[</Shortcut>
-					<Shortcut Command="ReSharper_SelectContainingDeclaration" Scope="Text Editor">Ctrl+Shift+[</Shortcut>
-					<Shortcut Command="ReSharper_SelectContainingDeclaration" Scope="XAML UI Designer">Ctrl+Shift+[</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_TypeHierarchy_Browse" Scope="Global">Ctrl+E, Ctrl+H</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_TypeHierarchy_Browse" Scope="XAML UI Designer">Ctrl+E, Ctrl+H</Shortcut>
 					<RemoveShortcut Command="Edit.ToggleTaskListShortcut" Scope="Text Editor">Ctrl+E, T</RemoveShortcut>
 					<RemoveShortcut Command="Edit.ToggleTaskListShortcut" Scope="Text Editor">Ctrl+E, Ctrl+T</RemoveShortcut>
-					<Shortcut Command="Edit.ToggleTaskListShortcut" Scope="Text Editor">Ctrl+K, Ctrl+H</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_ExploreStackTrace" Scope="Global">Ctrl+E, Ctrl+T</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_ExploreStackTrace" Scope="XAML UI Designer">Ctrl+E, Ctrl+T</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_Bookmarks_BookmarksMenu" Scope="Global">Ctrl+`</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_Bookmarks_BookmarksMenu" Scope="Text Editor">Ctrl+`</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_Bookmarks_BookmarksMenu" Scope="XAML UI Designer">Ctrl+`</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark0" Scope="Global">Ctrl+Shift+0</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark0" Scope="Text Editor">Ctrl+Shift+0</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark0" Scope="XAML UI Designer">Ctrl+Shift+0</Shortcut>
 					<RemoveShortcut Command="View.BrowseNext" Scope="Global">Ctrl+Shift+1</RemoveShortcut>
-					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark1" Scope="Global">Ctrl+Shift+1</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark1" Scope="Text Editor">Ctrl+Shift+1</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark1" Scope="XAML UI Designer">Ctrl+Shift+1</Shortcut>
 					<RemoveShortcut Command="View.BrowsePrevious" Scope="Global">Ctrl+Shift+2</RemoveShortcut>
-					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark2" Scope="Global">Ctrl+Shift+2</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark2" Scope="Text Editor">Ctrl+Shift+2</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark2" Scope="XAML UI Designer">Ctrl+Shift+2</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark3" Scope="Global">Ctrl+Shift+3</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark3" Scope="Text Editor">Ctrl+Shift+3</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark3" Scope="XAML UI Designer">Ctrl+Shift+3</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark4" Scope="Global">Ctrl+Shift+4</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark4" Scope="Text Editor">Ctrl+Shift+4</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark4" Scope="XAML UI Designer">Ctrl+Shift+4</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark5" Scope="Global">Ctrl+Shift+5</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark5" Scope="Text Editor">Ctrl+Shift+5</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark5" Scope="XAML UI Designer">Ctrl+Shift+5</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark6" Scope="Global">Ctrl+Shift+6</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark6" Scope="Text Editor">Ctrl+Shift+6</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark6" Scope="XAML UI Designer">Ctrl+Shift+6</Shortcut>
 					<RemoveShortcut Command="View.ForwardBrowseContext" Scope="Global">Ctrl+Shift+7</RemoveShortcut>
-					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark7" Scope="Global">Ctrl+Shift+7</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark7" Scope="Text Editor">Ctrl+Shift+7</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark7" Scope="XAML UI Designer">Ctrl+Shift+7</Shortcut>
 					<RemoveShortcut Command="View.PopBrowseContext" Scope="Global">Ctrl+Shift+8</RemoveShortcut>
-					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark8" Scope="Global">Ctrl+Shift+8</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark8" Scope="Text Editor">Ctrl+Shift+8</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark8" Scope="XAML UI Designer">Ctrl+Shift+8</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark9" Scope="Global">Ctrl+Shift+9</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark9" Scope="Text Editor">Ctrl+Shift+9</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark9" Scope="XAML UI Designer">Ctrl+Shift+9</Shortcut>
 					<RemoveShortcut Command="TeamFoundationContextMenus.Commands.GoToConnect" Scope="Global">Ctrl+0, C</RemoveShortcut>
 					<RemoveShortcut Command="TeamFoundationContextMenus.Commands.GoToConnect" Scope="Global">Ctrl+0, Ctrl+C</RemoveShortcut>
 					<RemoveShortcut Command="Design.FitAll" Scope="XAML UI Designer">Ctrl+0</RemoveShortcut>
@@ -246,177 +129,66 @@
 					<RemoveShortcut Command="TeamFoundationContextMenus.Commands.GoToWebAccess" Scope="Global">Ctrl+0, A</RemoveShortcut>
 					<RemoveShortcut Command="TeamFoundationContextMenus.Commands.GoToWorkItems" Scope="Global">Ctrl+0, Ctrl+W</RemoveShortcut>
 					<RemoveShortcut Command="TeamFoundationContextMenus.Commands.GoToWorkItems" Scope="Global">Ctrl+0, W</RemoveShortcut>
-					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark0" Scope="Global">Ctrl+0</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark0" Scope="Text Editor">Ctrl+0</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark0" Scope="XAML UI Designer">Ctrl+0</Shortcut>
 					<RemoveShortcut Command="QueryDesigner.Diagram" Scope="Query Designer">Ctrl+1</RemoveShortcut>
 					<RemoveShortcut Command="QueryDesigner.Diagram" Scope="View Designer">Ctrl+1</RemoveShortcut>
 					<RemoveShortcut Command="View.EntityDataModelBrowser" Scope="ADO.NET Entity Data Model Designer">Ctrl+1</RemoveShortcut>
 					<RemoveShortcut Command="OtherContextMenus.ORDesignerContextMenu.HideMethodsPane" Scope="VisualStudio">Ctrl+1</RemoveShortcut>
 					<RemoveShortcut Command="Resources.Strings" Scope="Managed Resources Editor">Ctrl+1</RemoveShortcut>
 					<RemoveShortcut Command="XsdDesigner.ShowStartView" Scope="XML Schema Designer">Ctrl+1</RemoveShortcut>
-					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark1" Scope="Global">Ctrl+1</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark1" Scope="Text Editor">Ctrl+1</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark1" Scope="XAML UI Designer">Ctrl+1</Shortcut>
 					<RemoveShortcut Command="QueryDesigner.Criteria" Scope="Query Designer">Ctrl+2</RemoveShortcut>
 					<RemoveShortcut Command="QueryDesigner.Criteria" Scope="View Designer">Ctrl+2</RemoveShortcut>
 					<RemoveShortcut Command="View.EntityDataModelMappingDetails" Scope="ADO.NET Entity Data Model Designer">Ctrl+2</RemoveShortcut>
 					<RemoveShortcut Command="Resources.Images" Scope="Managed Resources Editor">Ctrl+2</RemoveShortcut>
 					<RemoveShortcut Command="XsdDesigner.ShowContentModelView" Scope="XML Schema Designer">Ctrl+2</RemoveShortcut>
-					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark2" Scope="Global">Ctrl+2</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark2" Scope="Text Editor">Ctrl+2</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark2" Scope="XAML UI Designer">Ctrl+2</Shortcut>
 					<RemoveShortcut Command="QueryDesigner.SQL" Scope="Query Designer">Ctrl+3</RemoveShortcut>
 					<RemoveShortcut Command="QueryDesigner.SQL" Scope="View Designer">Ctrl+3</RemoveShortcut>
 					<RemoveShortcut Command="Resources.Icons" Scope="Managed Resources Editor">Ctrl+3</RemoveShortcut>
 					<RemoveShortcut Command="XsdDesigner.ShowGraphView" Scope="XML Schema Designer">Ctrl+3</RemoveShortcut>
-					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark3" Scope="Global">Ctrl+3</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark3" Scope="Text Editor">Ctrl+3</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark3" Scope="XAML UI Designer">Ctrl+3</Shortcut>
 					<RemoveShortcut Command="QueryDesigner.Results" Scope="Query Designer">Ctrl+4</RemoveShortcut>
 					<RemoveShortcut Command="QueryDesigner.Results" Scope="View Designer">Ctrl+4</RemoveShortcut>
 					<RemoveShortcut Command="Resources.Audio" Scope="Managed Resources Editor">Ctrl+4</RemoveShortcut>
-					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark4" Scope="Global">Ctrl+4</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark4" Scope="Text Editor">Ctrl+4</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark4" Scope="XAML UI Designer">Ctrl+4</Shortcut>
 					<RemoveShortcut Command="Resources.Files" Scope="Managed Resources Editor">Ctrl+5</RemoveShortcut>
 					<RemoveShortcut Command="Debug.LocationToolbar.ProcessCombo" Scope="Global">Ctrl+5</RemoveShortcut>
-					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark5" Scope="Global">Ctrl+5</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark5" Scope="Text Editor">Ctrl+5</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark5" Scope="XAML UI Designer">Ctrl+5</Shortcut>
 					<RemoveShortcut Command="Resources.Other" Scope="Managed Resources Editor">Ctrl+6</RemoveShortcut>
 					<RemoveShortcut Command="Debug.LocationToolbar.ThreadCombo" Scope="Global">Ctrl+6</RemoveShortcut>
-					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark6" Scope="Global">Ctrl+6</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark6" Scope="Text Editor">Ctrl+6</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark6" Scope="XAML UI Designer">Ctrl+6</Shortcut>
 					<RemoveShortcut Command="Debug.LocationToolbar.StackFrameCombo" Scope="Global">Ctrl+7</RemoveShortcut>
-					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark7" Scope="Global">Ctrl+7</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark7" Scope="Text Editor">Ctrl+7</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark7" Scope="XAML UI Designer">Ctrl+7</Shortcut>
 					<RemoveShortcut Command="Debug.LocationToolbar.ToggleCurrentThreadFlaggedState" Scope="Global">Ctrl+8</RemoveShortcut>
-					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark8" Scope="Global">Ctrl+8</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark8" Scope="Text Editor">Ctrl+8</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark8" Scope="XAML UI Designer">Ctrl+8</Shortcut>
 					<RemoveShortcut Command="Debug.LocationToolbar.ToggleFlaggedThreads" Scope="Global">Ctrl+9</RemoveShortcut>
-					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark9" Scope="Global">Ctrl+9</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark9" Scope="Text Editor">Ctrl+9</Shortcut>
-					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark9" Scope="XAML UI Designer">Ctrl+9</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_InspectThis" Scope="Global">Ctrl+Shift+Alt+A</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_InspectThis" Scope="Text Editor">Ctrl+Shift+Alt+A</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_InspectThis" Scope="XAML UI Designer">Ctrl+Shift+Alt+A</Shortcut>
 					<RemoveShortcut Command="Debug.Locals" Scope="Global">Ctrl+Alt+V, L</RemoveShortcut>
-					<Shortcut Command="Debug.Locals" Scope="Global">Ctrl+D, L</Shortcut>
-					<Shortcut Command="Debug.Locals" Scope="Global">Ctrl+D, Ctrl+L</Shortcut>
 					<RemoveShortcut Command="Debug.Autos" Scope="Global">Ctrl+Alt+V, A</RemoveShortcut>
-					<Shortcut Command="Debug.Autos" Scope="Global">Ctrl+D, A</Shortcut>
-					<Shortcut Command="Debug.Autos" Scope="Global">Ctrl+D, Ctrl+A</Shortcut>
 					<RemoveShortcut Command="Debug.JavaScriptConsole" Scope="Global">Ctrl+Alt+V, C</RemoveShortcut>
 					<RemoveShortcut Command="Debug.DOMExplorer" Scope="Global">Ctrl+Alt+V, D</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_ShowInspectionWindow" Scope="Global">Ctrl+Alt+V</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_ShowInspectionWindow" Scope="Text Editor">Ctrl+Alt+V</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_ShowInspectionWindow" Scope="XAML UI Designer">Ctrl+Alt+V</Shortcut>
 					<RemoveShortcut Command="ReSharper.ReSharper_AnalyzeReferences" Scope="Global">Ctrl+Alt+Y</RemoveShortcut>
-					<Shortcut Command="ReSharper_ShowAnalyzeReferences" Scope="Global">Ctrl+Alt+Y</Shortcut>
 					<RemoveShortcut Command="ReSharper.ReSharper_AnalyzeReferences" Scope="Text Editor">Ctrl+Alt+Y</RemoveShortcut>
-					<Shortcut Command="ReSharper_ShowAnalyzeReferences" Scope="Text Editor">Ctrl+Alt+Y</Shortcut>
 					<RemoveShortcut Command="ReSharper.ReSharper_AnalyzeReferences" Scope="XAML UI Designer">Ctrl+Alt+Y</RemoveShortcut>
-					<Shortcut Command="ReSharper_ShowAnalyzeReferences" Scope="XAML UI Designer">Ctrl+Alt+Y</Shortcut>
 					<RemoveShortcut Command="Debug.Threads" Scope="Global">Ctrl+Alt+H</RemoveShortcut>
-					<Shortcut Command="Debug.Threads" Scope="Global">Ctrl+D, T</Shortcut>
-					<Shortcut Command="Debug.Threads" Scope="Global">Ctrl+D, Ctrl+T</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_ShowHierarchyWindow" Scope="Global">Ctrl+Alt+H</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_ShowHierarchyWindow" Scope="Text Editor">Ctrl+Alt+H</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_ShowHierarchyWindow" Scope="XAML UI Designer">Ctrl+Alt+H</Shortcut>
 					<RemoveShortcut Command="View.F#Interactive" Scope="Global">Ctrl+Alt+F</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_ShowCodeStructure" Scope="Global">Ctrl+Alt+F</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_ShowCodeStructure" Scope="Text Editor">Ctrl+Alt+F</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_ShowCodeStructure" Scope="XAML UI Designer">Ctrl+Alt+F</Shortcut>
 					<RemoveShortcut Command="Debug.Disassembly" Scope="Global">Ctrl+Alt+D</RemoveShortcut>
 					<RemoveShortcut Command="View.ReportData" Scope="Report Designer">Ctrl+Alt+D</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_ShowTodoExplorer" Scope="Global">Ctrl+Alt+D</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_ShowTodoExplorer" Scope="Text Editor">Ctrl+Alt+D</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_ShowTodoExplorer" Scope="XAML UI Designer">Ctrl+Alt+D</Shortcut>
 					<RemoveShortcut Command="View.FindSymbolResults" Scope="Global">Ctrl+Alt+F12</RemoveShortcut>
-					<Shortcut Command="View.FindSymbolResults" Scope="Global">Ctrl+W, Q</Shortcut>
-					<Shortcut Command="View.FindSymbolResults" Scope="Global">Ctrl+W, Ctrl+Q</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_ShowFindResults" Scope="Global">Ctrl+Alt+F12</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_ShowFindResults" Scope="Text Editor">Ctrl+Alt+F12</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_ShowFindResults" Scope="XAML UI Designer">Ctrl+Alt+F12</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_MoveUp" Scope="Text Editor">Ctrl+Shift+Alt+Up Arrow</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_MoveUp" Scope="XAML UI Designer">Ctrl+Shift+Alt+Up Arrow</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_MoveDown" Scope="Text Editor">Ctrl+Shift+Alt+Down Arrow</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_MoveDown" Scope="XAML UI Designer">Ctrl+Shift+Alt+Down Arrow</Shortcut>
 					<RemoveShortcut Command="Edit.WordPreviousExtendColumn" Scope="Text Editor">Ctrl+Shift+Alt+Left Arrow</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_MoveLeft" Scope="Text Editor">Ctrl+Shift+Alt+Left Arrow</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_MoveLeft" Scope="XAML UI Designer">Ctrl+Shift+Alt+Left Arrow</Shortcut>
 					<RemoveShortcut Command="Edit.WordNextExtendColumn" Scope="Text Editor">Ctrl+Shift+Alt+Right Arrow</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_MoveRight" Scope="Text Editor">Ctrl+Shift+Alt+Right Arrow</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_MoveRight" Scope="XAML UI Designer">Ctrl+Shift+Alt+Right Arrow</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_Generate" Scope="Global">Alt+Ins</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_Generate" Scope="Text Editor">Alt+Ins</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_Generate" Scope="XAML UI Designer">Alt+Ins</Shortcut>
 					<RemoveShortcut Command="Edit.CommentSelection" Scope="Text Editor">Ctrl+E, Ctrl+C</RemoveShortcut>
 					<RemoveShortcut Command="WorkflowDesigner.Collapse" Scope="Workflow Designer">Ctrl+E, Ctrl+C</RemoveShortcut>
 					<RemoveShortcut Command="ArchitectureContextMenus.DirectedGraphContextMenu.NewComment" Scope="Graph Document Editor">Ctrl+E, C</RemoveShortcut>
-					<Shortcut Command="ArchitectureContextMenus.DirectedGraphContextMenu.NewComment" Scope="Graph Document Editor">Ctrl+Shift+K</Shortcut>
 					<RemoveShortcut Command="Edit.CommentSelection" Scope="Text Editor">Ctrl+E, C</RemoveShortcut>
-					<Shortcut Command="Edit.CommentSelection" Scope="Text Editor">Ctrl+K, Ctrl+C</Shortcut>
 					<RemoveShortcut Command="WorkflowDesigner.Collapse" Scope="Workflow Designer">Ctrl+E, C</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_CleanupCode" Scope="Global">Ctrl+E, C</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_CleanupCode" Scope="XAML UI Designer">Ctrl+E, C</Shortcut>
 					<RemoveShortcut Command="Edit.NavigateTo" Scope="Global">Ctrl+,</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoRecentFiles" Scope="Global">Ctrl+,</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoRecentFiles" Scope="Text Editor">Ctrl+,</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoRecentFiles" Scope="XAML UI Designer">Ctrl+,</Shortcut>
 					<RemoveShortcut Command="Image.ZoomOut" Scope="VC Image Editor">Ctrl+Shift+,</RemoveShortcut>
-					<Shortcut Command="Image.ZoomOut" Scope="VC Image Editor">Ctrl+Down Arrow</Shortcut>
 					<RemoveShortcut Command="View.ZoomOut" Scope="Global">Ctrl+Shift+,</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoRecentEdits" Scope="Global">Ctrl+Shift+,</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoRecentEdits" Scope="Text Editor">Ctrl+Shift+,</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoRecentEdits" Scope="XAML UI Designer">Ctrl+Shift+,</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoLastEditLocation" Scope="Global">Ctrl+Shift+Bkspce</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoLastEditLocation" Scope="Text Editor">Ctrl+Shift+Bkspce</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoLastEditLocation" Scope="XAML UI Designer">Ctrl+Shift+Bkspce</Shortcut>
 					<RemoveShortcut Command="Format.Underline" Scope="HTML Editor Design View">Ctrl+U</RemoveShortcut>
 					<RemoveShortcut Command="Edit.MakeLowercase" Scope="Text Editor">Ctrl+U</RemoveShortcut>
 					<RemoveShortcut Command="Image.UseSelectionasBrush" Scope="VC Image Editor">Ctrl+U</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_UnitTestSession_AppendTests" Scope="Global">Ctrl+U, Ctrl+A</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_UnitTestSession_AppendTests" Scope="XAML UI Designer">Ctrl+U, Ctrl+A</Shortcut>
 					<RemoveShortcut Command="Debug.Modules" Scope="Global">Ctrl+Alt+U</RemoveShortcut>
-					<Shortcut Command="Debug.Modules" Scope="Global">Ctrl+D, M</Shortcut>
-					<Shortcut Command="Debug.Modules" Scope="Global">Ctrl+D, Ctrl+M</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_ShowUnitTestExplorer" Scope="Global">Ctrl+Alt+U</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_ShowUnitTestExplorer" Scope="Text Editor">Ctrl+Alt+U</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_ShowUnitTestExplorer" Scope="XAML UI Designer">Ctrl+Alt+U</Shortcut>
 					<RemoveShortcut Command="View.DocumentOutline" Scope="Global">Ctrl+Alt+T</RemoveShortcut>
-					<Shortcut Command="View.DocumentOutline" Scope="Global">Ctrl+W, U</Shortcut>
-					<Shortcut Command="View.DocumentOutline" Scope="Global">Ctrl+W, Ctrl+U</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_ShowUnitTestSessions" Scope="Global">Ctrl+Alt+T</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_ShowUnitTestSessions" Scope="Text Editor">Ctrl+Alt+T</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_ShowUnitTestSessions" Scope="XAML UI Designer">Ctrl+Alt+T</Shortcut>
 					<RemoveShortcut Command="OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.Down5" Scope="ADO.NET Entity Data Model Designer">Alt+PgDn</RemoveShortcut>
 					<RemoveShortcut Command="TeamFoundationContextMenus.Annotate.TfsAnnotateMoveNextRegion" Scope="Text Editor">Alt+PgDn</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoNextHighlight" Scope="Global">Alt+PgDn</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoNextHighlight" Scope="Text Editor">Alt+PgDn</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoNextHighlight" Scope="XAML UI Designer">Alt+PgDn</Shortcut>
 					<RemoveShortcut Command="OtherContextMenus.MicrosoftDataEntityDesignContext.MoveProperties.Up5" Scope="ADO.NET Entity Data Model Designer">Alt+PgUp</RemoveShortcut>
 					<RemoveShortcut Command="TeamFoundationContextMenus.Annotate.TfsAnnotateMovePreviousRegion" Scope="Text Editor">Alt+PgUp</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoPrevHighlight" Scope="Global">Alt+PgUp</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoPrevHighlight" Scope="Text Editor">Alt+PgUp</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoPrevHighlight" Scope="XAML UI Designer">Alt+PgUp</Shortcut>
 					<RemoveShortcut Command="TSqlEditorDatabaseCombo" Scope="Microsoft SQL Server Data Tools, T-SQL Editor">Shift+Alt+PgDn</RemoveShortcut>
 					<RemoveShortcut Command="ViewFileInScriptPanel" Scope="Microsoft SQL Server Data Tools, Table Designer">Shift+Alt+PgDn</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoNextErrorInSolution" Scope="Global">Shift+Alt+PgDn</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoNextErrorInSolution" Scope="Text Editor">Shift+Alt+PgDn</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoNextErrorInSolution" Scope="XAML UI Designer">Shift+Alt+PgDn</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoPrevErrorInSolution" Scope="Global">Shift+Alt+PgUp</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoPrevErrorInSolution" Scope="Text Editor">Shift+Alt+PgUp</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GotoPrevErrorInSolution" Scope="XAML UI Designer">Shift+Alt+PgUp</Shortcut>
 					<RemoveShortcut Command="Debug.RefreshWindowsapp" Scope="Global">Ctrl+Shift+R</RemoveShortcut>
 					<RemoveShortcut Command="Format.All" Scope="XAML UI Designer">Ctrl+Shift+R</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_RefactorThis" Scope="Global">Ctrl+Shift+R</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_RefactorThis" Scope="Text Editor">Ctrl+Shift+R</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_RefactorThis" Scope="XAML UI Designer">Ctrl+Shift+R</Shortcut>
 					<RemoveShortcut Command="QueryDesigner.ExecuteSQL" Scope="Query Designer">Ctrl+R</RemoveShortcut>
 					<RemoveShortcut Command="QueryDesigner.ExecuteSQL" Scope="View Designer">Ctrl+R</RemoveShortcut>
 					<RemoveShortcut Command="Format.ButtonRight" Scope="VC Dialog Editor">Ctrl+R</RemoveShortcut>
@@ -427,64 +199,24 @@
 					<RemoveShortcut Command="Refactor.Rename" Scope="Global">Ctrl+R, Ctrl+R</RemoveShortcut>
 					<RemoveShortcut Command="SQL.Rename" Scope="Microsoft SQL Server Data Tools, Table Designer">Ctrl+R, Ctrl+R</RemoveShortcut>
 					<RemoveShortcut Command="SQL.Rename" Scope="Microsoft SQL Server Data Tools, T-SQL Editor">Ctrl+R, Ctrl+R</RemoveShortcut>
-					<Shortcut Command="SQL.Rename" Scope="Microsoft SQL Server Data Tools, Table Designer">F2</Shortcut>
-					<Shortcut Command="SQL.Rename" Scope="Microsoft SQL Server Data Tools, T-SQL Editor">F2</Shortcut>
 					<RemoveShortcut Command="Refactor.ReorderParameters" Scope="Global">Ctrl+R, O</RemoveShortcut>
 					<RemoveShortcut Command="Refactor.ReorderParameters" Scope="Global">Ctrl+R, Ctrl+O</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_Move" Scope="Global">Ctrl+R, Ctrl+O</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_Move" Scope="XAML UI Designer">Ctrl+R, Ctrl+O</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_SafeDelete" Scope="XAML UI Designer">Ctrl+R, Ctrl+D</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_SafeDelete" Scope="Global">Alt+Del</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_SafeDelete" Scope="Text Editor">Alt+Del</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_SafeDelete" Scope="XAML UI Designer">Alt+Del</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_ExtractMethod" Scope="XAML UI Designer">Ctrl+R, Ctrl+M</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_IntroduceVariable" Scope="XAML UI Designer">Ctrl+R, Ctrl+V</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_IntroduceField" Scope="XAML UI Designer">Ctrl+R, Ctrl+F</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_IntroParameter" Scope="XAML UI Designer">Ctrl+R, Ctrl+P</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_InlineVariable" Scope="XAML UI Designer">Ctrl+R, Ctrl+I</Shortcut>
 					<RemoveShortcut Command="Refactor.EncapsulateField" Scope="Global">Ctrl+R, E</RemoveShortcut>
 					<RemoveShortcut Command="SQL.ExpandWildcards" Scope="Microsoft SQL Server Data Tools, Table Designer">Ctrl+R, E</RemoveShortcut>
 					<RemoveShortcut Command="SQL.ExpandWildcards" Scope="Microsoft SQL Server Data Tools, T-SQL Editor">Ctrl+R, E</RemoveShortcut>
 					<RemoveShortcut Command="Refactor.EncapsulateField" Scope="Global">Ctrl+R, Ctrl+E</RemoveShortcut>
 					<RemoveShortcut Command="SQL.ExpandWildcards" Scope="Microsoft SQL Server Data Tools, Table Designer">Ctrl+R, Ctrl+E</RemoveShortcut>
 					<RemoveShortcut Command="SQL.ExpandWildcards" Scope="Microsoft SQL Server Data Tools, T-SQL Editor">Ctrl+R, Ctrl+E</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_EncapsulateField" Scope="Global">Ctrl+R, Ctrl+E</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_EncapsulateField" Scope="XAML UI Designer">Ctrl+R, Ctrl+E</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_ChangeSignature" Scope="Global">Ctrl+R, Ctrl+S</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_ChangeSignature" Scope="XAML UI Designer">Ctrl+R, Ctrl+S</Shortcut>
 					<RemoveShortcut Command="Project.Override" Scope="Global">Ctrl+Alt+Ins</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_GenerateFileBesides" Scope="Global">Ctrl+Alt+Ins</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GenerateFileBesides" Scope="Text Editor">Ctrl+Alt+Ins</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_GenerateFileBesides" Scope="XAML UI Designer">Ctrl+Alt+Ins</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_LiveTemplates_Insert" Scope="XAML UI Designer">Ctrl+E, Ctrl+L</Shortcut>
 					<RemoveShortcut Command="Edit.UncommentSelection" Scope="Text Editor">Ctrl+E, U</RemoveShortcut>
 					<RemoveShortcut Command="Edit.UncommentSelection" Scope="Text Editor">Ctrl+E, Ctrl+U</RemoveShortcut>
-					<Shortcut Command="Edit.UncommentSelection" Scope="Text Editor">Ctrl+K, Ctrl+U</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_SurroundWith" Scope="XAML UI Designer">Ctrl+E, Ctrl+U</Shortcut>
 					<RemoveShortcut Command="Edit.PasteParameterTip" Scope="Text Editor">Ctrl+Shift+Alt+P</RemoveShortcut>
 					<RemoveShortcut Command="Image.FilledEllipseTool" Scope="VC Image Editor">Ctrl+Shift+Alt+P</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_ProfileVisualStudio" Scope="Global">Ctrl+Shift+Alt+P</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_ProfileVisualStudio" Scope="Text Editor">Ctrl+Shift+Alt+P</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_ProfileVisualStudio" Scope="XAML UI Designer">Ctrl+Shift+Alt+P</Shortcut>
 					<RemoveShortcut Command="Edit.FormatSelection" Scope="Text Editor">Ctrl+E, F</RemoveShortcut>
 					<RemoveShortcut Command="WorkflowDesigner.ConnectNodes" Scope="Workflow Designer">Ctrl+E, F</RemoveShortcut>
 					<RemoveShortcut Command="Edit.FormatSelection" Scope="Text Editor">Ctrl+E, Ctrl+F</RemoveShortcut>
-					<Shortcut Command="Edit.FormatSelection" Scope="Text Editor">Ctrl+K, Ctrl+F</Shortcut>
 					<RemoveShortcut Command="WorkflowDesigner.ConnectNodes" Scope="Workflow Designer">Ctrl+E, Ctrl+F</RemoveShortcut>
-					<Shortcut Command="ReSharper_SilentCleanupCode" Scope="Global">Ctrl+E, Ctrl+F</Shortcut>
-					<Shortcut Command="ReSharper_SilentCleanupCode" Scope="XAML UI Designer">Ctrl+E, Ctrl+F</Shortcut>
 					<RemoveShortcut Command="EditorContextMenus.CodeWindow.ExecuteInInteractive" Scope="Text Editor">Alt+Enter</RemoveShortcut>
-					<Shortcut Command="ReSharper_QuickFix" Scope="Text Editor">Alt+Enter</Shortcut>
-					<Shortcut Command="ReSharper_QuickFix" Scope="XAML UI Designer">Alt+Enter</Shortcut>
-					<Shortcut Command="ReSharper_WindowManager_CloseRecentTool" Scope="Global">Ctrl+Shift+F4</Shortcut>
-					<Shortcut Command="ReSharper_WindowManager_CloseRecentTool" Scope="Text Editor">Ctrl+Shift+F4</Shortcut>
-					<Shortcut Command="ReSharper_WindowManager_CloseRecentTool" Scope="XAML UI Designer">Ctrl+Shift+F4</Shortcut>
-					<Shortcut Command="ReSharper_WindowManager_ActivateRecentTool" Scope="Global">Ctrl+Alt+Bkspce</Shortcut>
-					<Shortcut Command="ReSharper_WindowManager_ActivateRecentTool" Scope="Text Editor">Ctrl+Alt+Bkspce</Shortcut>
-					<Shortcut Command="ReSharper_WindowManager_ActivateRecentTool" Scope="XAML UI Designer">Ctrl+Alt+Bkspce</Shortcut>
-					<Shortcut Command="ReSharper_EnableDaemon" Scope="Global">Ctrl+Shift+Alt+8</Shortcut>
-					<Shortcut Command="ReSharper_EnableDaemon" Scope="Text Editor">Ctrl+Shift+Alt+8</Shortcut>
-					<Shortcut Command="ReSharper_EnableDaemon" Scope="XAML UI Designer">Ctrl+Shift+Alt+8</Shortcut>
 					<RemoveShortcut Command="Edit.SwapAnchor" Scope="Text Editor">Ctrl+K, Ctrl+A</RemoveShortcut>
 					<RemoveShortcut Command="Edit.SwapAnchor" Scope="Text Editor">Ctrl+E, A</RemoveShortcut>
 					<RemoveShortcut Command="Edit.GotoBrace" Scope="Text Editor">Ctrl+]</RemoveShortcut>
@@ -606,7 +338,6 @@
 					<RemoveShortcut Command="View.EditLabel" Scope="Global">F2</RemoveShortcut>
 					<RemoveShortcut Command="ReSharper.ReSharper_Rename" Scope="Global">F2</RemoveShortcut>
 					<RemoveShortcut Command="Refactor.Rename" Scope="Text Editor">F2</RemoveShortcut>
-					<Shortcut Command="ReSharper.ReSharper_Rename" Scope="Text Editor">F2</Shortcut>
 					<RemoveShortcut Command="ReSharper.ReSharper_ReSharper_UnitTest_DebugContext" Scope="XAML UI Designer">Ctrl+U, Ctrl+D</RemoveShortcut>
 					<RemoveShortcut Command="ReSharper.ReSharper_ReSharper_UnitTest_RunContext" Scope="XAML UI Designer">Ctrl+U, Ctrl+R</RemoveShortcut>
 					<RemoveShortcut Command="ReSharper.ReSharper_ReSharper_UnitTest_RunContext" Scope="Global">Ctrl+U, Ctrl+R</RemoveShortcut>
@@ -626,9 +357,284 @@
 					<RemoveShortcut Command="Help.ViewHelp" Scope="Global">Ctrl+F1, Ctrl+V</RemoveShortcut>
 					<RemoveShortcut Command="Help.AddandRemoveHelpContent" Scope="Global">Ctrl+F1, M</RemoveShortcut>
 					<RemoveShortcut Command="Help.AddandRemoveHelpContent" Scope="Global">Ctrl+F1, Ctrl+M</RemoveShortcut>
+					<RemoveShortcut Command="ReSharper.ReSharper_GotoType" Scope="XAML UI Designer">Ctrl+T</RemoveShortcut>
+					<RemoveShortcut Command="Edit.ListMembers" Scope="Text Editor">Ctrl+J</RemoveShortcut>
+					<RemoveShortcut Command="Edit.ListMembers" Scope="Workflow Designer">Ctrl+J</RemoveShortcut>
+					<RemoveShortcut Command="Edit.ViewTop" Scope="Text Editor">Ctrl+PgUp</RemoveShortcut>
+					<RemoveShortcut Command="Edit.ViewBottom" Scope="Text Editor">Ctrl+PgDn</RemoveShortcut>
+					<RemoveShortcut Command="Edit.Replace" Scope="Global">Ctrl+H</RemoveShortcut>
+					<RemoveShortcut Command="Edit.LineCut" Scope="Text Editor">Ctrl+L</RemoveShortcut>
+					<Shortcut Command="Window.PreviousTab" Scope="Global">Ctrl+PgUp</Shortcut>
+					<Shortcut Command="Window.PreviousTab" Scope="HTML Editor Source View">Ctrl+PgUp</Shortcut>
+					<Shortcut Command="Window.PreviousTab" Scope="HTML Editor Design View">Ctrl+PgUp</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoPreviousOccurence" Scope="Global">Ctrl+Alt+PgUp</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoPreviousOccurence" Scope="Text Editor">Ctrl+Alt+PgUp</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoPreviousOccurence" Scope="XAML UI Designer">Ctrl+Alt+PgUp</Shortcut>
+					<Shortcut Command="Window.NextTab" Scope="Global">Ctrl+PgDn</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoNextOccurence" Scope="Global">Ctrl+Alt+PgDn</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoNextOccurence" Scope="Text Editor">Ctrl+Alt+PgDn</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoNextOccurence" Scope="XAML UI Designer">Ctrl+Alt+PgDn</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_LocateInSolutionExplorer" Scope="Global">Shift+Alt+L</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_LocateInSolutionExplorer" Scope="Text Editor">Shift+Alt+L</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_LocateInSolutionExplorer" Scope="XAML UI Designer">Shift+Alt+L</Shortcut>
+					<Shortcut Command="ReSharper_ForceCompleteItem" Scope="Text Editor">Ctrl+Enter</Shortcut>
+					<Shortcut Command="ReSharper_ForceCompleteItem" Scope="XAML UI Designer">Ctrl+Enter</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoNextMethod" Scope="Global">Alt+Down Arrow</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoNextMethod" Scope="Text Editor">Alt+Down Arrow</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoNextMethod" Scope="XAML UI Designer">Alt+Down Arrow</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoPrevMethod" Scope="Global">Alt+Up Arrow</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoPrevMethod" Scope="Text Editor">Alt+Up Arrow</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoPrevMethod" Scope="XAML UI Designer">Alt+Up Arrow</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ExtendSelection" Scope="Text Editor">Ctrl+Alt+Right Arrow</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ExtendSelection" Scope="XAML UI Designer">Ctrl+Alt+Right Arrow</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ShrinkSelection" Scope="Text Editor">Ctrl+Alt+Left Arrow</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ShrinkSelection" Scope="XAML UI Designer">Ctrl+Alt+Left Arrow</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_DuplicateText" Scope="XAML UI Designer">Ctrl+D</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_LineComment" Scope="Text Editor">Ctrl+Alt+/</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_LineComment" Scope="XAML UI Designer">Ctrl+Alt+/</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_BlockComment" Scope="Text Editor">Ctrl+Shift+/</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_BlockComment" Scope="XAML UI Designer">Ctrl+Shift+/</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_CompleteCodeTypeName" Scope="Text Editor">Shift+Alt+Space</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_CompleteCodeTypeName" Scope="XAML UI Designer">Shift+Alt+Space</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_CompleteCodeSmart" Scope="Text Editor">Ctrl+Alt+Space</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_CompleteCodeSmart" Scope="XAML UI Designer">Ctrl+Alt+Space</Shortcut>
+					<Shortcut Command="ReSharper_ParameterInfo_GoToPreviousSignature" Scope="Global">Ctrl+Shift+Alt+Space</Shortcut>
+					<Shortcut Command="ReSharper_ParameterInfo_GoToPreviousSignature" Scope="Text Editor">Ctrl+Shift+Alt+Space</Shortcut>
+					<Shortcut Command="ReSharper_ParameterInfo_GoToPreviousSignature" Scope="XAML UI Designer">Ctrl+Shift+Alt+Space</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_QuickDoc" Scope="Global">Ctrl+Shift+F1</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_QuickDoc" Scope="Text Editor">Ctrl+Shift+F1</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_QuickDoc" Scope="XAML UI Designer">Ctrl+Shift+F1</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoFile" Scope="Global">Ctrl+Shift+T</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoFile" Scope="Text Editor">Ctrl+Shift+T</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoFile" Scope="XAML UI Designer">Ctrl+Shift+T</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoSymbol" Scope="Global">Shift+Alt+T</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoSymbol" Scope="Text Editor">Shift+Alt+T</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoSymbol" Scope="XAML UI Designer">Shift+Alt+T</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoFileMember" Scope="Global">Alt+\</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoFileMember" Scope="Text Editor">Alt+\</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoFileMember" Scope="XAML UI Designer">Alt+\</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoUsage" Scope="Global">Shift+Alt+F12</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoUsage" Scope="Text Editor">Shift+Alt+F12</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoUsage" Scope="XAML UI Designer">Shift+Alt+F12</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoBase" Scope="Global">Alt+Home</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoBase" Scope="Text Editor">Alt+Home</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoBase" Scope="XAML UI Designer">Alt+Home</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoInheritors" Scope="Global">Alt+End</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoInheritors" Scope="Text Editor">Alt+End</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoInheritors" Scope="XAML UI Designer">Alt+End</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoTypeDeclaration" Scope="Global">Ctrl+Shift+F11</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoTypeDeclaration" Scope="Text Editor">Ctrl+Shift+F11</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoTypeDeclaration" Scope="XAML UI Designer">Ctrl+Shift+F11</Shortcut>
+					<Shortcut Command="Image.PreviousColor" Scope="VC Image Editor">Ctrl+Left Arrow</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoContainingDeclaration" Scope="XAML UI Designer">Ctrl+[</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_NavigateTo" Scope="Global">Alt+`</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_NavigateTo" Scope="Text Editor">Alt+`</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_NavigateTo" Scope="XAML UI Designer">Alt+`</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoRelatedFiles" Scope="Global">Ctrl+Alt+F7</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoRelatedFiles" Scope="Text Editor">Ctrl+Alt+F7</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoRelatedFiles" Scope="XAML UI Designer">Ctrl+Alt+F7</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_FindUsagesAdvanced" Scope="Global">Ctrl+Shift+Alt+F12</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_FindUsagesAdvanced" Scope="Text Editor">Ctrl+Shift+Alt+F12</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_FindUsagesAdvanced" Scope="XAML UI Designer">Ctrl+Shift+Alt+F12</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_HighlightUsages" Scope="Global">Shift+Alt+F11</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_HighlightUsages" Scope="Text Editor">Shift+Alt+F11</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_HighlightUsages" Scope="XAML UI Designer">Shift+Alt+F11</Shortcut>
+					<Shortcut Command="Image.PreviousRightColor" Scope="VC Image Editor">Ctrl+Shift+Left Arrow</Shortcut>
+					<Shortcut Command="ReSharper_SelectContainingDeclaration" Scope="Global">Ctrl+Shift+[</Shortcut>
+					<Shortcut Command="ReSharper_SelectContainingDeclaration" Scope="Text Editor">Ctrl+Shift+[</Shortcut>
+					<Shortcut Command="ReSharper_SelectContainingDeclaration" Scope="XAML UI Designer">Ctrl+Shift+[</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_TypeHierarchy_Browse" Scope="Global">Ctrl+E, Ctrl+H</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_TypeHierarchy_Browse" Scope="XAML UI Designer">Ctrl+E, Ctrl+H</Shortcut>
+					<Shortcut Command="Edit.ToggleTaskListShortcut" Scope="Text Editor">Ctrl+K, Ctrl+H</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ExploreStackTrace" Scope="Global">Ctrl+E, Ctrl+T</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ExploreStackTrace" Scope="XAML UI Designer">Ctrl+E, Ctrl+T</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_Bookmarks_BookmarksMenu" Scope="Global">Ctrl+`</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_Bookmarks_BookmarksMenu" Scope="Text Editor">Ctrl+`</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_Bookmarks_BookmarksMenu" Scope="XAML UI Designer">Ctrl+`</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark0" Scope="Global">Ctrl+Shift+0</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark0" Scope="Text Editor">Ctrl+Shift+0</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark0" Scope="XAML UI Designer">Ctrl+Shift+0</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark1" Scope="Global">Ctrl+Shift+1</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark1" Scope="Text Editor">Ctrl+Shift+1</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark1" Scope="XAML UI Designer">Ctrl+Shift+1</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark2" Scope="Global">Ctrl+Shift+2</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark2" Scope="Text Editor">Ctrl+Shift+2</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark2" Scope="XAML UI Designer">Ctrl+Shift+2</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark3" Scope="Global">Ctrl+Shift+3</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark3" Scope="Text Editor">Ctrl+Shift+3</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark3" Scope="XAML UI Designer">Ctrl+Shift+3</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark4" Scope="Global">Ctrl+Shift+4</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark4" Scope="Text Editor">Ctrl+Shift+4</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark4" Scope="XAML UI Designer">Ctrl+Shift+4</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark5" Scope="Global">Ctrl+Shift+5</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark5" Scope="Text Editor">Ctrl+Shift+5</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark5" Scope="XAML UI Designer">Ctrl+Shift+5</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark6" Scope="Global">Ctrl+Shift+6</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark6" Scope="Text Editor">Ctrl+Shift+6</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark6" Scope="XAML UI Designer">Ctrl+Shift+6</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark7" Scope="Global">Ctrl+Shift+7</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark7" Scope="Text Editor">Ctrl+Shift+7</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark7" Scope="XAML UI Designer">Ctrl+Shift+7</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark8" Scope="Global">Ctrl+Shift+8</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark8" Scope="Text Editor">Ctrl+Shift+8</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark8" Scope="XAML UI Designer">Ctrl+Shift+8</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark9" Scope="Global">Ctrl+Shift+9</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark9" Scope="Text Editor">Ctrl+Shift+9</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark9" Scope="XAML UI Designer">Ctrl+Shift+9</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark0" Scope="Global">Ctrl+0</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark0" Scope="Text Editor">Ctrl+0</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark0" Scope="XAML UI Designer">Ctrl+0</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark1" Scope="Global">Ctrl+1</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark1" Scope="Text Editor">Ctrl+1</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark1" Scope="XAML UI Designer">Ctrl+1</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark2" Scope="Global">Ctrl+2</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark2" Scope="Text Editor">Ctrl+2</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark2" Scope="XAML UI Designer">Ctrl+2</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark3" Scope="Global">Ctrl+3</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark3" Scope="Text Editor">Ctrl+3</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark3" Scope="XAML UI Designer">Ctrl+3</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark4" Scope="Global">Ctrl+4</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark4" Scope="Text Editor">Ctrl+4</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark4" Scope="XAML UI Designer">Ctrl+4</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark5" Scope="Global">Ctrl+5</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark5" Scope="Text Editor">Ctrl+5</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark5" Scope="XAML UI Designer">Ctrl+5</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark6" Scope="Global">Ctrl+6</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark6" Scope="Text Editor">Ctrl+6</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark6" Scope="XAML UI Designer">Ctrl+6</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark7" Scope="Global">Ctrl+7</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark7" Scope="Text Editor">Ctrl+7</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark7" Scope="XAML UI Designer">Ctrl+7</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark8" Scope="Global">Ctrl+8</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark8" Scope="Text Editor">Ctrl+8</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark8" Scope="XAML UI Designer">Ctrl+8</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark9" Scope="Global">Ctrl+9</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark9" Scope="Text Editor">Ctrl+9</Shortcut>
+					<Shortcut Command="ReSharper_Bookmarks_GoToBookmark9" Scope="XAML UI Designer">Ctrl+9</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_InspectThis" Scope="Global">Ctrl+Shift+Alt+A</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_InspectThis" Scope="Text Editor">Ctrl+Shift+Alt+A</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_InspectThis" Scope="XAML UI Designer">Ctrl+Shift+Alt+A</Shortcut>
+					<Shortcut Command="Debug.Locals" Scope="Global">Ctrl+D, L</Shortcut>
+					<Shortcut Command="Debug.Locals" Scope="Global">Ctrl+D, Ctrl+L</Shortcut>
+					<Shortcut Command="Debug.Autos" Scope="Global">Ctrl+D, A</Shortcut>
+					<Shortcut Command="Debug.Autos" Scope="Global">Ctrl+D, Ctrl+A</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ShowInspectionWindow" Scope="Global">Ctrl+Alt+V</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ShowInspectionWindow" Scope="Text Editor">Ctrl+Alt+V</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ShowInspectionWindow" Scope="XAML UI Designer">Ctrl+Alt+V</Shortcut>
+					<Shortcut Command="ReSharper_ShowAnalyzeReferences" Scope="Global">Ctrl+Alt+Y</Shortcut>
+					<Shortcut Command="ReSharper_ShowAnalyzeReferences" Scope="Text Editor">Ctrl+Alt+Y</Shortcut>
+					<Shortcut Command="ReSharper_ShowAnalyzeReferences" Scope="XAML UI Designer">Ctrl+Alt+Y</Shortcut>
+					<Shortcut Command="Debug.Threads" Scope="Global">Ctrl+D, T</Shortcut>
+					<Shortcut Command="Debug.Threads" Scope="Global">Ctrl+D, Ctrl+T</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ShowHierarchyWindow" Scope="Global">Ctrl+Alt+H</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ShowHierarchyWindow" Scope="Text Editor">Ctrl+Alt+H</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ShowHierarchyWindow" Scope="XAML UI Designer">Ctrl+Alt+H</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ShowCodeStructure" Scope="Global">Ctrl+Alt+F</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ShowCodeStructure" Scope="Text Editor">Ctrl+Alt+F</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ShowCodeStructure" Scope="XAML UI Designer">Ctrl+Alt+F</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ShowTodoExplorer" Scope="Global">Ctrl+Alt+D</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ShowTodoExplorer" Scope="Text Editor">Ctrl+Alt+D</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ShowTodoExplorer" Scope="XAML UI Designer">Ctrl+Alt+D</Shortcut>
+					<Shortcut Command="View.FindSymbolResults" Scope="Global">Ctrl+W, Q</Shortcut>
+					<Shortcut Command="View.FindSymbolResults" Scope="Global">Ctrl+W, Ctrl+Q</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ShowFindResults" Scope="Global">Ctrl+Alt+F12</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ShowFindResults" Scope="Text Editor">Ctrl+Alt+F12</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ShowFindResults" Scope="XAML UI Designer">Ctrl+Alt+F12</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_MoveUp" Scope="Text Editor">Ctrl+Shift+Alt+Up Arrow</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_MoveUp" Scope="XAML UI Designer">Ctrl+Shift+Alt+Up Arrow</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_MoveDown" Scope="Text Editor">Ctrl+Shift+Alt+Down Arrow</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_MoveDown" Scope="XAML UI Designer">Ctrl+Shift+Alt+Down Arrow</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_MoveLeft" Scope="Text Editor">Ctrl+Shift+Alt+Left Arrow</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_MoveLeft" Scope="XAML UI Designer">Ctrl+Shift+Alt+Left Arrow</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_MoveRight" Scope="Text Editor">Ctrl+Shift+Alt+Right Arrow</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_MoveRight" Scope="XAML UI Designer">Ctrl+Shift+Alt+Right Arrow</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_Generate" Scope="Global">Alt+Ins</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_Generate" Scope="Text Editor">Alt+Ins</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_Generate" Scope="XAML UI Designer">Alt+Ins</Shortcut>
+					<Shortcut Command="ArchitectureContextMenus.DirectedGraphContextMenu.NewComment" Scope="Graph Document Editor">Ctrl+Shift+K</Shortcut>
+					<Shortcut Command="Edit.CommentSelection" Scope="Text Editor">Ctrl+K, Ctrl+C</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_CleanupCode" Scope="Global">Ctrl+E, C</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_CleanupCode" Scope="XAML UI Designer">Ctrl+E, C</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoRecentFiles" Scope="Global">Ctrl+,</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoRecentFiles" Scope="Text Editor">Ctrl+,</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoRecentFiles" Scope="XAML UI Designer">Ctrl+,</Shortcut>
+					<Shortcut Command="Image.ZoomOut" Scope="VC Image Editor">Ctrl+Down Arrow</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoRecentEdits" Scope="Global">Ctrl+Shift+,</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoRecentEdits" Scope="Text Editor">Ctrl+Shift+,</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoRecentEdits" Scope="XAML UI Designer">Ctrl+Shift+,</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoLastEditLocation" Scope="Global">Ctrl+Shift+Bkspce</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoLastEditLocation" Scope="Text Editor">Ctrl+Shift+Bkspce</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoLastEditLocation" Scope="XAML UI Designer">Ctrl+Shift+Bkspce</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_UnitTestSession_AppendTests" Scope="Global">Ctrl+U, Ctrl+A</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_UnitTestSession_AppendTests" Scope="XAML UI Designer">Ctrl+U, Ctrl+A</Shortcut>
+					<Shortcut Command="Debug.Modules" Scope="Global">Ctrl+D, M</Shortcut>
+					<Shortcut Command="Debug.Modules" Scope="Global">Ctrl+D, Ctrl+M</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ShowUnitTestExplorer" Scope="Global">Ctrl+Alt+U</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ShowUnitTestExplorer" Scope="Text Editor">Ctrl+Alt+U</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ShowUnitTestExplorer" Scope="XAML UI Designer">Ctrl+Alt+U</Shortcut>
+					<Shortcut Command="View.DocumentOutline" Scope="Global">Ctrl+W, U</Shortcut>
+					<Shortcut Command="View.DocumentOutline" Scope="Global">Ctrl+W, Ctrl+U</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ShowUnitTestSessions" Scope="Global">Ctrl+Alt+T</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ShowUnitTestSessions" Scope="Text Editor">Ctrl+Alt+T</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ShowUnitTestSessions" Scope="XAML UI Designer">Ctrl+Alt+T</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoNextHighlight" Scope="Global">Alt+PgDn</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoNextHighlight" Scope="Text Editor">Alt+PgDn</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoNextHighlight" Scope="XAML UI Designer">Alt+PgDn</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoPrevHighlight" Scope="Global">Alt+PgUp</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoPrevHighlight" Scope="Text Editor">Alt+PgUp</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoPrevHighlight" Scope="XAML UI Designer">Alt+PgUp</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoNextErrorInSolution" Scope="Global">Shift+Alt+PgDn</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoNextErrorInSolution" Scope="Text Editor">Shift+Alt+PgDn</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoNextErrorInSolution" Scope="XAML UI Designer">Shift+Alt+PgDn</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoPrevErrorInSolution" Scope="Global">Shift+Alt+PgUp</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoPrevErrorInSolution" Scope="Text Editor">Shift+Alt+PgUp</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GotoPrevErrorInSolution" Scope="XAML UI Designer">Shift+Alt+PgUp</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_RefactorThis" Scope="Global">Ctrl+Shift+R</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_RefactorThis" Scope="Text Editor">Ctrl+Shift+R</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_RefactorThis" Scope="XAML UI Designer">Ctrl+Shift+R</Shortcut>
+					<Shortcut Command="SQL.Rename" Scope="Microsoft SQL Server Data Tools, Table Designer">F2</Shortcut>
+					<Shortcut Command="SQL.Rename" Scope="Microsoft SQL Server Data Tools, T-SQL Editor">F2</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_Move" Scope="Global">Ctrl+R, Ctrl+O</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_Move" Scope="XAML UI Designer">Ctrl+R, Ctrl+O</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_SafeDelete" Scope="XAML UI Designer">Ctrl+R, Ctrl+D</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_SafeDelete" Scope="Global">Alt+Del</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_SafeDelete" Scope="Text Editor">Alt+Del</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_SafeDelete" Scope="XAML UI Designer">Alt+Del</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ExtractMethod" Scope="XAML UI Designer">Ctrl+R, Ctrl+M</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_IntroduceVariable" Scope="XAML UI Designer">Ctrl+R, Ctrl+V</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_IntroduceField" Scope="XAML UI Designer">Ctrl+R, Ctrl+F</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_IntroParameter" Scope="XAML UI Designer">Ctrl+R, Ctrl+P</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_InlineVariable" Scope="XAML UI Designer">Ctrl+R, Ctrl+I</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_EncapsulateField" Scope="Global">Ctrl+R, Ctrl+E</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_EncapsulateField" Scope="XAML UI Designer">Ctrl+R, Ctrl+E</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ChangeSignature" Scope="Global">Ctrl+R, Ctrl+S</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ChangeSignature" Scope="XAML UI Designer">Ctrl+R, Ctrl+S</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GenerateFileBesides" Scope="Global">Ctrl+Alt+Ins</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GenerateFileBesides" Scope="Text Editor">Ctrl+Alt+Ins</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_GenerateFileBesides" Scope="XAML UI Designer">Ctrl+Alt+Ins</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_LiveTemplates_Insert" Scope="XAML UI Designer">Ctrl+E, Ctrl+L</Shortcut>
+					<Shortcut Command="Edit.UncommentSelection" Scope="Text Editor">Ctrl+K, Ctrl+U</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_SurroundWith" Scope="XAML UI Designer">Ctrl+E, Ctrl+U</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ProfileVisualStudio" Scope="Global">Ctrl+Shift+Alt+P</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ProfileVisualStudio" Scope="Text Editor">Ctrl+Shift+Alt+P</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_ProfileVisualStudio" Scope="XAML UI Designer">Ctrl+Shift+Alt+P</Shortcut>
+					<Shortcut Command="Edit.FormatSelection" Scope="Text Editor">Ctrl+K, Ctrl+F</Shortcut>
+					<Shortcut Command="ReSharper_SilentCleanupCode" Scope="Global">Ctrl+E, Ctrl+F</Shortcut>
+					<Shortcut Command="ReSharper_SilentCleanupCode" Scope="XAML UI Designer">Ctrl+E, Ctrl+F</Shortcut>
+					<Shortcut Command="ReSharper_QuickFix" Scope="Text Editor">Alt+Enter</Shortcut>
+					<Shortcut Command="ReSharper_QuickFix" Scope="XAML UI Designer">Alt+Enter</Shortcut>
+					<Shortcut Command="ReSharper_WindowManager_CloseRecentTool" Scope="Global">Ctrl+Shift+F4</Shortcut>
+					<Shortcut Command="ReSharper_WindowManager_CloseRecentTool" Scope="Text Editor">Ctrl+Shift+F4</Shortcut>
+					<Shortcut Command="ReSharper_WindowManager_CloseRecentTool" Scope="XAML UI Designer">Ctrl+Shift+F4</Shortcut>
+					<Shortcut Command="ReSharper_WindowManager_ActivateRecentTool" Scope="Global">Ctrl+Alt+Bkspce</Shortcut>
+					<Shortcut Command="ReSharper_WindowManager_ActivateRecentTool" Scope="Text Editor">Ctrl+Alt+Bkspce</Shortcut>
+					<Shortcut Command="ReSharper_WindowManager_ActivateRecentTool" Scope="XAML UI Designer">Ctrl+Alt+Bkspce</Shortcut>
+					<Shortcut Command="ReSharper_EnableDaemon" Scope="Global">Ctrl+Shift+Alt+8</Shortcut>
+					<Shortcut Command="ReSharper_EnableDaemon" Scope="Text Editor">Ctrl+Shift+Alt+8</Shortcut>
+					<Shortcut Command="ReSharper_EnableDaemon" Scope="XAML UI Designer">Ctrl+Shift+Alt+8</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_Rename" Scope="Text Editor">F2</Shortcut>
 					<Shortcut Command="ReSharper.ReSharper_QuickDoc" Scope="Global">Ctrl+F1</Shortcut>
 					<Shortcut Command="ReSharper.ReSharper_QuickDoc" Scope="Text Editor">Ctrl+F1</Shortcut>
-					<RemoveShortcut Command="ReSharper.ReSharper_GotoType" Scope="XAML UI Designer">Ctrl+T</RemoveShortcut>
 					<Shortcut Command="ReSharper.ReSharper_GotoType" Scope="Global">Ctrl+T</Shortcut>
 					<Shortcut Command="ViEmu.KeypressCtrlB" Scope="Text Editor">Ctrl+B</Shortcut>
 					<Shortcut Command="ViEmu.KeypressCtrlC" Scope="Text Editor">Ctrl+C</Shortcut>
@@ -648,14 +654,10 @@
 					<Shortcut Command="ViEmu.KeypressCtrlY" Scope="Text Editor">Ctrl+Y</Shortcut>
 					<Shortcut Command="ViEmu.KeypressCtrlLeftSquareBracket" Scope="Text Editor">Ctrl+[</Shortcut>
 					<Shortcut Command="ViEmu.KeypressCtrlRightSquareBracket" Scope="Text Editor">Ctrl+]</Shortcut>
-					<RemoveShortcut Command="Edit.ListMembers" Scope="Text Editor">Ctrl+J</RemoveShortcut>
-					<RemoveShortcut Command="Edit.ListMembers" Scope="Workflow Designer">Ctrl+J</RemoveShortcut>
-					<RemoveShortcut Command="Edit.ViewTop" Scope="Text Editor">Ctrl+PgUp</RemoveShortcut>
-					<RemoveShortcut Command="Edit.ViewBottom" Scope="Text Editor">Ctrl+PgDn</RemoveShortcut>
-					<RemoveShortcut Command="Edit.Replace" Scope="Global">Ctrl+H</RemoveShortcut>
-					<RemoveShortcut Command="Edit.LineCut" Scope="Text Editor">Ctrl+L</RemoveShortcut>
 					<Shortcut Command="Window.PreviousTab" Scope="Global">Ctrl+H</Shortcut>
 					<Shortcut Command="Window.NextTab" Scope="Global">Ctrl+L</Shortcut>
+					<Shortcut Command="Edit.GoTo" Scope="Global">Ctrl+G</Shortcut>
+					<RemoveShortcut Command="Image.FlipHorizontal" Scope="VC Image Editor">Ctrl+H</RemoveShortcut>
 				</UserShortcuts>
 			</KeyboardShortcuts>
 		</Category>
