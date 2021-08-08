@@ -1,0 +1,33 @@
+[alias]
+  co = checkout
+  st = status
+  br = branch
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  type = cat-file -t
+  dump = cat-file
+  ec = config --global -e
+  up = !git pull --rebase --prune $@ && git submodule update --init --recursive
+  cob = checkout -b
+  cm = !git add -A && git commit -m
+  save = !git add -A && git commit -m 'SAVEPOINT'
+  wip = !git add -u && git commit -m "WIP" 
+  undo = reset HEAD~1 --mixed
+  amend = commit -a --amend
+  doco = !git add -A && git commit -m 'Doco review'
+  wipe = !git add -A && git commit -qm 'WIPE SAVEPOINT' && git reset HEAD~1 --hard
+  bclean = "!f() { git branch --merged ${1-master} | grep -v " ${1-master}$" | xargs git branch -d; }; f"
+  bdone = "!f() { git checkout ${1-master} && git up && git bclean ${1-master}; }; f"
+  migrate = "!f(){ CURRENT=$(git symbolic-ref --short HEAD); git checkout -b $1 && git branch --force $CURRENT ${3-'$CURRENT@{u}'} && git rebase --onto ${2-master} $CURRENT; }; f"
+[core]
+	excludesfile = ~/.gitignore_global
+	autocrlf = input
+[diff]
+	tool = bc3
+[merge]
+	tool = bc3
+[mergetool]
+	bc3 = trustExitCode
+[difftool]
+	bc3 = trustExitCode
+
